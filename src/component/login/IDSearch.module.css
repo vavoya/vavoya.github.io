@@ -1,0 +1,79 @@
+.IDSearch {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 486px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 35.2px;
+  margin-bottom: 48px;
+}
+
+.search_option {
+  width: inherit;
+  display: flex;
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 31px;
+}
+
+.search_option li {
+  flex-grow: 1;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 62px;
+  text-align: center;
+}
+
+.search_option li:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.ID_SEARCH {
+  display: flex;
+  flex-direction: column;
+}
+
+.ID_SEARCH label {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  margin-bottom: 9px;
+}
+
+.ID_SEARCH input {
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 30px;
+}
+
+.ID_SEARCH input::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+}
+
+.ID_SEARCH .name {
+  margin-bottom: 20px;
+}
+
+.ID_SEARCH .phone {
+  margin-bottom: 31px;
+}
+
+button {
+  width: 486px;
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(96, 78, 248, 1);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+}

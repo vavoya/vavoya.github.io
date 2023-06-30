@@ -1,0 +1,143 @@
+.MembershipInformation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 26.4px;
+  margin-bottom: 45px;
+}
+
+.wrap {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 969px;
+}
+
+.left {
+  padding-top: 93px;
+  width: 422px;
+  margin-right: 61px;
+}
+
+.left p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 55px;
+}
+
+.left .profile {
+  display: flex;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+}
+
+.left .profile_left {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  color: rgba(0, 0, 0, 0.5);
+
+  width: 116px;
+}
+
+.left .profile_right {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+
+  width: 306px;
+}
+
+.right {
+  width: 486px;
+  padding-left: 61px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.right input {
+  height: 53px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.right input::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 30px;
+}
+
+.right .ID {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-bottom: 45px;
+}
+
+.right .PASSWORD {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-bottom: 45px;
+}
+
+.right .PASSWORD label:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.right .EMAIL {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.right .EMAIL .email_input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right .EMAIL .email_input input {
+  width: 217px;
+}
+
+.right .EMAIL .email_input label {
+  line-height: 53px;
+}
+
+.right .EMAIL .email_link {
+  width: 486px;
+  height: 53px;
+}
+
+.right .EMAIL .email_link li {
+  width: inherit;
+  padding-left: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  line-height: 53px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 486px;
+  height: 62px;
+  background-color: rgba(96, 78, 248, 1);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 1);
+  margin-top: 45px;
+}

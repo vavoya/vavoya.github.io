@@ -1,0 +1,25 @@
+.order-button {
+    margin: 0;
+    width: 100%;
+    border: 2px solid #604EF8;
+    background-color: #fff;
+    color: #604EF8;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.order {
+    height: 22%;
+}
+
+.finish {
+    height: 12%;
+}
+
+.order-button:hover {
+    background-color: #604EF8;
+    color: white;
+}

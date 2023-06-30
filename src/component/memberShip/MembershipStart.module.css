@@ -1,0 +1,153 @@
+.start_contents {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* * {
+  outline: 1px solid #363;
+} */
+
+.start_title {
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26.4px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.start_desc {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  color: #939393;
+  margin-bottom: 46px;
+}
+
+.full_agreement {
+  position: relative;
+  width: 486px;
+  height: 53px;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 39px;
+}
+
+.full_agreement p {
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  margin-top: 17px;
+  margin-left: 68px;
+}
+
+.full_agreement p::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 31px;
+  width: 26px;
+  height: 26px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.agree_first {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  margin: 0 auto;
+  margin-bottom: 67px;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+}
+
+.agree_first span {
+  margin-bottom: 25px;
+}
+
+.agree_first ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: inherit;
+}
+
+.agree_first li {
+  position: relative;
+  display: flex;
+}
+
+.agree_first p {
+  margin-left: 36px;
+  margin-right: auto;
+}
+
+.agree_second {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 486px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  white-space: nowrap;
+}
+
+.agree_second .top {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: inherit;
+}
+
+.agree_second .top li {
+  display: flex;
+}
+
+.agree_second .top li p {
+  margin-left: 36px;
+  margin-right: auto;
+}
+
+.agree_second .option,
+.agree_second .information {
+  margin-left: 60px;
+}
+
+.agree_second .option li {
+  display: flex;
+}
+
+.agree_second .option p {
+  margin-left: 15px;
+}
+
+.phone_agree {
+  position: relative;
+  display: block;
+  width: 486px;
+  height: 62px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  background: rgba(96, 78, 248, 1);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.phone_agree p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  color: rgba(255, 255, 255, 1);
+}

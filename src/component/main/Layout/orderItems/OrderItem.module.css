@@ -1,0 +1,138 @@
+.outer-container {
+    width: 100%;
+    height: 18%;
+    background-color: #F5F3FF;
+    border: 1px solid black;
+
+}
+
+.inner-container {
+    margin: 30px 50px 0px 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+}
+
+.time {
+    flex-grow: 1;
+    margin-right: 19px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.order-number-container {
+    margin-top: 15px;
+    border: 1px solid black;
+    background-color: #fff;
+    width: 104px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.order-number {
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.p-margin {
+    margin: 0px;
+}
+
+.menu {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.count {
+    margin-bottom: 19px;
+    margin-right: 23px;
+}
+
+.menu-detail {
+    margin-bottom: 13px;
+}
+
+.order-request {
+    margin-top: 35px;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.ispayment-button {
+    width: 102px;
+    height: 27px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin-right: 9px;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    width: 150px;
+    margin: 0px;
+    height: 100%;
+    color: #604EF8;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    border: 2px solid #604EF8;
+}
+
+.order-print {
+    margin-right: 10px;
+}
+
+.order-cancel {
+    margin-right: 10px;
+}
+
+.do-order {
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #604EF8;
+    color: white;
+}

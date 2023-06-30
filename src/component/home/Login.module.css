@@ -1,0 +1,24 @@
+.btnContainer {
+    width: 276px;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 114px;
+    height: 48px;
+    border: 2px solid #604EF8;
+    font-family: 'Pretendard-Regular';
+    font-size: 18px;
+}
+
+.login {
+    background-color: white;
+
+}
+
+.signup {
+    background-color: #604EF8;
+    color: white;
+}

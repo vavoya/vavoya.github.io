@@ -1,0 +1,33 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 116px;
+
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 14.3px;
+}
+
+footer ul {
+  display: flex;
+}
+
+.top {
+  width: 220px;
+  gap: 14px;
+  margin: 18px auto 20px auto;
+}
+
+.top li {
+  display: flex;
+}
+
+.top li p {
+  margin-right: 10px;
+}
+
+.bottom {
+  gap: 18px;
+}

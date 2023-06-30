@@ -1,0 +1,10 @@
+.outer-container {
+    margin: 72px 0px 0px 202px;
+    display: flex;
+    flex-direction: row;
+}
+
+.inner-container {
+    width: 100%;
+    overflow: scroll;
+}

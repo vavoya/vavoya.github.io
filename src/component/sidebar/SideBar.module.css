@@ -1,0 +1,65 @@
+.wrapper {
+    list-style: none;
+    background-color: #dfdfdf;
+    height: 100%;
+    /* margin-top: 72px; */
+    position: fixed;
+    border-right: 1px solid black;
+}
+
+.mainMenu {
+    width: 202px;
+    margin-top: 25px;
+    display: block;
+}
+
+li {
+    margin: 10px 0 10px 0;
+}
+
+.item {}
+
+.btn {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+
+.btn img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.btn i {
+    margin-right: 10px;
+}
+
+.subMenu {
+    transition: max-height 0.7s;
+    list-style: circle;
+}
+
+.subMenu a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    margin-left: 25px;
+    font-size: 14px;
+    position: relative;
+}
+
+.subMenu a:hover {
+    transition: all 0.3s;
+    color: #604EF8;
+}
+
+.subMenu a:last-child {
+    border: none;
+}
+
+.item:target .subMenu {
+    max-height: 10em;
+}

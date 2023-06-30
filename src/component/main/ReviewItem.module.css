@@ -1,0 +1,129 @@
+.reviewItem {
+  background-color: #f5f3ff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+.reviewWrite {
+  width: 740px;
+}
+
+.reviewUser {
+  font-family: "Pretendard-Semibold";
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.starRating {
+  width: 100px;
+  height: 16px;
+  position: relative;
+  margin-right: 12px;
+}
+
+.starRatingDown {
+  width: 100px;
+  height: 16px;
+}
+
+.starRatingDown img {
+  width: 18px;
+  height: 16px;
+  margin: 0px 1px;
+}
+
+.starRatingUp {
+  width: 100px;
+  height: 16px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.starRatingUp img {
+  width: 18px;
+  height: 16px;
+  margin: 0px 1px;
+}
+
+.ratingNBuy {
+  display: flex;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.userReview {
+  line-height: 200%;
+}
+
+.reviewItemHr {
+  margin: 14px 0;
+  border: none;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.replyBtn {
+  width: 131px;
+  height: 38px;
+  flex-shrink: 0;
+  border: 2px solid #604ef8;
+  background: #fff;
+  font-family: "Pretendard-Regular";
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+}
+
+.replyInput {
+  width: 100%;
+  height: 95px;
+  flex-shrink: 0;
+  background: #FFF;
+  padding: 26px 21px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 0px;
+}
+
+.replyForm {
+    position: relative;
+    margin-top: 14px;
+}
+
+.submintBtn {
+    font-family: "Pretendard-Regular";
+    width: 64px;
+    height: 44px;
+    border: none;
+    background-color: #FFF;
+    font-size: 16px;
+    position: absolute;
+    top: 26px;
+    right: 5px;
+}
+
+.reply {
+    line-height: 200%;
+    position: relative;
+}
+
+.replyModifyBtn {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    display: flex;
+}
+
+.replyModifyBtn button {
+    font-family: "Pretendard-Regular";
+    width: 64px;
+    height: 44px; 
+    border: none;
+    background-color: #f5f3ff;
+    font-size: 16px;
+    display: flex;
+
+    align-items: flex-start;
+}

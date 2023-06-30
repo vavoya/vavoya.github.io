@@ -1,0 +1,10 @@
+nav {
+    font-family: "Pretendard-Regular";
+    font-size: 14px;
+}
+
+ul {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+}

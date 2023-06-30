@@ -1,0 +1,13 @@
+button {
+    font: inherit;
+    cursor: pointer;
+    width: 301px;
+    height: 70px;
+    margin: 87px 80px 39px 0;
+    background: #604EF8;
+    border: 1px solid #604EF8;
+    color: white;
+    padding: 0.25rem 2rem;
+    font-weight: bold;
+    float: right;
+}

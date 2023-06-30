@@ -1,0 +1,78 @@
+.LoginStart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 486px;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 35.2px;
+  margin-bottom: 76px;
+}
+
+.LOGIN_FORM {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin-bottom: 24px;
+}
+
+.LOGIN_FORM input {
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding-left: 31px;
+}
+
+.LOGIN_FORM input::placeholder {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17.6px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.login_options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.login_options .left {
+  display: flex;
+  gap: 13px;
+}
+
+.login_options .left .checkbox {
+  width: 30px;
+  height: 30px;
+}
+
+.login_options .left label {
+  display: block;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.login_options .right {
+  display: flex;
+  gap: 15px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+button {
+  width: 486px;
+  height: 62px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(96, 78, 248, 1);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+}

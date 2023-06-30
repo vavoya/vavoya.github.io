@@ -1,0 +1,11 @@
+input {
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none;
+    padding-left: 12px;
+    width: 90%;
+    height: 100%;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+    background: #F2F4F8;
+}
