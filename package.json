@@ -18,7 +18,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://vavoya.github.io/register/store"
   "eslintConfig": {
     "extends": [
       "react-app",
